@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+// import App from './App';
+import EventBasic from './chap03/EventBasic';
+import StateBasic from './chap03/StateBasic';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <EventBasic type="time" />
+    <StateBasic init={0} />
   </React.StrictMode>
 );
 
