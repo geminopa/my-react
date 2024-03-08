@@ -4,6 +4,8 @@ import './index.css';
 // import App from './App';
 import EventBasic from './chap03/EventBasic';
 import StateBasic from './chap03/StateBasic';
+import books from './chap03/books';
+import ForList from './chap03/ForList';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -11,6 +13,7 @@ root.render(
   <React.StrictMode>
     <EventBasic type="time" />
     <StateBasic init={0} />
+    <ForList src={books} />
   </React.StrictMode>
 );
 
