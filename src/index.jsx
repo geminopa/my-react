@@ -8,6 +8,7 @@ import books from './chap03/books';
 import ForList from './chap03/ForList';
 import ForFilter from './chap03/ForFilter';
 import ForSort from './chap03/ForSort';
+import StyledPanel from './chap03/StyledPanel';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -17,6 +18,10 @@ root.render(
     <StateBasic init={0} />
     {/* <ForList src={books} /> */}
     <ForSort src={books} />
+    <StyledPanel>
+      <p>メンバー募集中！</p>
+      <p>ようこそ、WINGSプロジェクトへ！！</p>
+    </StyledPanel>
   </React.StrictMode>
 );
 
