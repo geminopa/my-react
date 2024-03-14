@@ -4,6 +4,7 @@ import './index.css';
 // import App from './App';
 // import EventBasic from './chap03/EventBasic';
 // import StateBasic from './chap03/StateBasic';
+import MyHello from './chap03/MyHello';
 import books from './chap03/books';
 // import ForList from './chap03/ForList';
 // import ForFilter from './chap03/ForFilter';
@@ -16,7 +17,7 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <ListTemplate src={books}>
+    {/* <ListTemplate src={books}>
       {elem => (
         <>
           <dt>
@@ -27,7 +28,8 @@ root.render(
           <dd>{elem.summary}</dd>
         </>
       )}
-    </ListTemplate>
+    </ListTemplate> */}
+    <MyHello />
   </React.StrictMode>
 );
 
