@@ -14,12 +14,12 @@ import ListTemplate from './chap03/ListTemplate';
 import reportWebVitals from './reportWebVitals';
 // import StateParent from './chap03/StateParent';
 // import EventMouse from './chap03/EventMouse';
-import EventObj from './chap03/EventObj';
+import EventPoint from './chap03/EventPoint';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <EventObj />
+    <EventPoint />
   </React.StrictMode>
 );
 
