@@ -12,25 +12,14 @@ import books from './chap03/books';
 // import TitledPanel from './chap03/TitledPanel';
 import ListTemplate from './chap03/ListTemplate';
 import reportWebVitals from './reportWebVitals';
-import StateParent from './chap03/StateParent';
+// import StateParent from './chap03/StateParent';
+// import EventMouse from './chap03/EventMouse';
+import EventObj from './chap03/EventObj';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <StateParent />
-    {/* <StateBasic init={0} /> */}
-    {/* <ListTemplate src={books}>
-      {elem => (
-        <>
-          <dt>
-            <a href={`https://wings.msn.to/books/${elem.isbn}/${elem.isbn}.jpg`}>
-              {elem.title} ({elem.price}円)
-            </a>
-          </dt>
-          <dd>{elem.summary}</dd>
-        </>
-      )}
-    </ListTemplate> */}
+    <EventObj />
   </React.StrictMode>
 );
 
